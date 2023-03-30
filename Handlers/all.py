@@ -5,6 +5,7 @@ from aiogram.types import Message
 
 @dp.message_handler()
 async def help_command(message: Message):
-    await message.answer(f'{message.from_user.first_name}, смотри че поймал - '
-                         f'{message.text}')
+    await message.answer(f'{message.from_user.first_name}, я не знаю что это значит, у меня нет для тебя ответа')
     # Прописываем что будет делать хэндлер
+    # {message.text}
+

@@ -1,6 +1,6 @@
 # Bot и Dispatcher это классы поэтому с большой буквы
-from aiogram import Bot, Dispatcher  # Из aiogram импортируем Bot и Dispatcher
 from aiogram.utils import executor
+
 from Handlers import dp  # По сути мы импортировали список handlers-ов из файла __init__
 
 
